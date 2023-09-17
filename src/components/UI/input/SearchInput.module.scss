@@ -1,0 +1,14 @@
+.search {
+  height: 40px;
+  padding: 12px;
+  border-radius: 10px;
+  width: 400px;
+  background: #f7f7f7;
+  font-size: 16px;
+  &:hover,
+  &:focus {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 4px rgba(0, 0, 0, 0.04),
+      0 20px 40px rgba(0, 0, 0, 0.08);
+  }
+}

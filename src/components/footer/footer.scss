@@ -1,0 +1,33 @@
+.footer {
+  background-color: #333333;
+  color: #ffffff;
+
+  &__contact {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 35px 0;
+    border-bottom: 1px solid #474747;
+    padding-bottom: 35px;
+  }
+
+  &__logo-link {
+    display: flex;
+    align-items: center;
+    color: inherit;
+  }
+  &__logo-img {
+    width: 36px;
+    height: 36px;
+    margin-right: 5px;
+  }
+  &__logo-text {
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  &__inst-img {
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+  }
+}
